@@ -8,6 +8,44 @@ header {
 	background-color: orange;
 }
 
+/* First Iteration */
+/*                 */
+.titleBlock {
+	background-color: blue;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+	//margin: 0px;
+	//position: relative;
+	//top: 0px; left: 10px;
+}
+
+.navOptions {
+	background-color: green;
+	display: inline-block;
+}
+
+.navOptions li {
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.titleEndBlock {
+	display: inline-block;
+	vertical-align: top;
+	background-color: red;
+	padding: 10px;
+	//margin: 0px;
+	//position: relative;
+	//top: 0px;
+}
+
+
+
+
+
 nav {
 	background-color: green;
 	display: inline-block;
@@ -23,38 +61,13 @@ nav li {
 	border-radius: 5px;
 }
 
-.navOptions {
-	background-color: green;
-	display: inline-block;
-}
 
-.navOptions li {
-	display: inline-block;
-	padding: 10px;
-	border: 1px solid black;
-	border-radius: 5px;
-}
 
-.titleBlock {
-	background-color: blue;
-	display: inline-block;
-	vertical-align: top;
-	padding: 10px;
-	//margin: 0px;
-	//position: relative;
-	//top: 0px; left: 10px;
-	
-}
 
-.titleEndBlock {
-	display: inline-block;
-	vertical-align: top;
-	background-color: red;
-	padding: 10px;
-	//margin: 0px;
-	//position: relative;
-	//top: 0px;
-}
+
+
+
+
 
 #FirstLetter {
 	font-size: 2.5em;
