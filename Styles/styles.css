@@ -5,19 +5,34 @@ body{
 }
 
 header {
-	background-color: orange;
+	background: purple;
+  height: 75px;
+  width: 100%
+  margin: 0px;
+  padding: 0px;
 }
 
-/* First Iteration */
-/*                 */
+table {
+  width: 100%;
+  font-family: monospace;
+}
+
+table, th {
+  border: 1px solid black;
+}
 .titleBlock {
-	background-color: blue;
+	background: aqua;
 	display: inline-block;
-	vertical-align: top;
-	padding: 10px;
-	//margin: 0px;
-	//position: relative;
-	//top: 0px; left: 10px;
+	height: 100%;
+  width: auto;
+  float: left;
+}
+
+.navBlock {
+  background: green;
+  display: inline-block;
+  height: 100%;
+  float: left;
 }
 
 .navOptions {
@@ -32,43 +47,13 @@ header {
 	border-radius: 5px;
 }
 
-.titleEndBlock {
-	display: inline-block;
-	vertical-align: top;
-	background-color: red;
-	padding: 10px;
-	//margin: 0px;
-	//position: relative;
-	//top: 0px;
+.navOptions li:hover {
+  background: aqua;
 }
 
-
-
-
-
-nav {
-	background-color: green;
-	display: inline-block;
-	vertical-align: top;
-	//float: left;
+.tableColumnOne {
+  width: 33%;
 }
-
-nav li {
-	display: inline-block;
-	padding: 10px;
-	//margin: 0px;
-	border: 1px solid black;
-	border-radius: 5px;
-}
-
-
-
-
-
-
-
-/* Content Styling */
-
 #FirstLetter {
 	font-size: 2.5em;
 }
